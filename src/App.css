@@ -12,9 +12,14 @@ body {
   scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: hidden;
+  background: #192653;
+  color: var(--color-white);
 }
 
 :root {
+  --color-primary: #192653;
+  --color-secondary: rgb(126, 126, 126);
+  --color-white: #fff;
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -33,4 +38,12 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  color: var(--color-white);
+  background: var(--color-secondary);
+  border-radius: .5rem;
+
 }

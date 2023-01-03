@@ -1,0 +1,12 @@
+.navbar-container {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 2rem;
+}
