@@ -20,6 +20,8 @@ body {
   --color-primary: #192653;
   --color-secondary: rgb(126, 126, 126);
   --color-white: #fff;
+  --color-black: #000;
+  --color-orange: #FF5C00;
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;

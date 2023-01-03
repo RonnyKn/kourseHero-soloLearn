@@ -1,0 +1,33 @@
+.header-container {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  place-items: center;
+  position: relative;
+}
+
+.header-right {
+  width: 100%;
+  display: flex;
+  gap: .5rem;
+}
+
+.header-left p {
+  color: var(--color-secondary);
+  margin: 1rem 0 2rem;
+}
+
+.header-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.find-btn {
+  background: var(--color-orange);
+}
+
+.learnmore-btn {
+  background: transparent;
+  color: var(--color-orange);
+}

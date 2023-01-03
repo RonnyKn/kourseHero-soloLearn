@@ -1,0 +1,10 @@
+.featured {
+  width: fit-content;
+  background: var(--color-white);
+  color: var(--color-black);
+  border-radius: .4rem;
+}
+
+.featured-body {
+  padding: .5rem;
+}
