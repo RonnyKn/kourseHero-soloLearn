@@ -1,0 +1,24 @@
+.facility-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.facility-1 {
+  display: flex;
+  gap: .5rem;
+}
+
+.facility-1 p {
+  color: var(--color-secondary);
+}
+
+.facility-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: .5rem;
+  background: var(--color-secondary);
+  border-radius: .5rem;
+}
